@@ -1,0 +1,47 @@
+
+```
+devboard/
+├── backend/
+├── frontend/
+└── .gitignore
+```
+
+Clean, professional, exactly what recruiters expect. Now add the README — click **Add a README** and paste:
+
+```markdown
+# DevBoard
+
+A full-stack project management tool with Kanban board.
+
+## Live Demo
+https://devboard-pied.vercel.app
+
+## Tech Stack
+- **Frontend**: React, Tailwind CSS, Vite — deployed on Vercel
+- **Backend**: FastAPI, SQLAlchemy, SQLite
+- **Auth**: JWT authentication with bcrypt password hashing
+
+## Features
+- User registration and login
+- Create and manage projects
+- Kanban board with To Do / In Progress / Done columns
+- JWT protected REST API with 15+ endpoints
+
+## Run Locally
+
+### Backend
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+```
+
+Commit the README. Then go to Vercel, delete the old project, and reconnect to this new clean repo with `frontend` as root directory!
