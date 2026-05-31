@@ -1,14 +1,3 @@
-
-```
-devboard/
-├── backend/
-├── frontend/
-└── .gitignore
-```
-
-Clean, professional, exactly what recruiters expect. Now add the README — click **Add a README** and paste:
-
-```markdown
 # DevBoard
 
 A full-stack project management tool with Kanban board.
@@ -42,6 +31,3 @@ cd frontend
 npm install
 npm run dev
 ```
-```
-
-Commit the README. Then go to Vercel, delete the old project, and reconnect to this new clean repo with `frontend` as root directory!
